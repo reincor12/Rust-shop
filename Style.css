@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    width: 1920px;
+    height: 2128px;
+}
+header{
+    background-image: url(img/Задний\ фон\ хеадера.png);
+    width: 1920px;
+    height: 972px;
+}
+
+.header{
+    width: 1824px;
+    height: 105px;
+    margin-left: 48px;
+    background-color: #2e2e2e;
+    display: flex;
+    position: absolute;
+    top: 32px;
+    border-radius: 16px;
+}
+
+.textAndLogo{
+    margin-top: 8px;
+    margin-left: 48px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.text{
+    width: 1160px;
+    height: 49px;
+    gap: 72px;
+    display: flex;
+    position: absolute;
+    left: 395px;
+    top: 28px;
+}
+
+.text p{
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.profileAndShop{
+    display: flex;
+    gap: 12px;
+    width: 151px;
+    height: 69px;
+    position: absolute;
+    top: 18px;
+    right: 80px;
+}
+
+.mainHeader{
+    width: 1183px;
+    height: 494px;
+    position: absolute;
+    top: 294px;
+    left: 160px;
+}
+
+.mainHeader p{
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.buttonHeader{
+    color: #FFF;
+    padding: 12px 32px 12px 32px;
+    border-radius: 16px;
+    background-color: #ce6f2b;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    border: 0px;
+}
+
+.cards{
+    width: 1636px;
+    height: 555px;
+    margin: 60px  0 0 144px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border-radius: 16px;
+    border: 2px solid white;
+    width: 289px;
+    height: 555px;
+    background-color: #2e2e2e;
+}
+
+.buttonCard{
+    color: #FFF;
+    border-radius: 16px;
+    padding: 12px 32px;
+    background-color: #ce6f2b;
+    font-size: 32px;
+    font-family: "Oswald", sans-serif;
+    position: absolute;
+    margin: 12px 0 0 24px;
+    border: 0px solid #2e2e2e;
+    width: 241px;
+    height: 71px;
+}
+
+.card .p1{
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    color: #EAEAEA;
+    font-weight: 500;
+    margin: 12px 0 0 24px;
+}
+
+.card .p2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 400;
+    margin: 0px 0 0 24px;
+    opacity: 0.8;
+}
+
+.card .p3{
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: #FFF;
+    font-weight: 500;
+    margin: 0 0 0 24px;
+}
+
+.footer{
+    background-color: #000000;
+    width: 1920px;
+    height: 500px;
+
+}
+
+.logos{
+    width: 128px;
+    height: 196px;
+    position: absolute;
+    top: 1781px;
+    left: 32px;
+}
+
+.zviazok{
+    width: 440px;
+    height: 158px;
+    position:absolute;
+    color: #FFF;
+    top: 1781px;
+    left: 224px;
+}
+
+.zagolovok{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: #FFF;
+}
+
+.text1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    color: #FFF;
+}
+
+.magazine{
+    position: absolute;
+    top: 1781px;
+    left: 688px;
+    width: 241px;
+    height: 195px;
+}
+
+.info{
+    width: 338px;
+    height: 195px;
+    position: absolute;
+    top: 1781px;
+    left: 953px;
+}
+
+.spilnote{
+    position: absolute;
+    top: 1781px;
+    left: 1315px;
+    width: 244px;
+    height: 195px;
+}
+
+.prava{
+    width: 1920px;
+    height: 52px;
+    background-color: #2e2e2e;
+    color: #FFF;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    position: absolute;
+    top: 2028px;
+    left: 0;
+}
